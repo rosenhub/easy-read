@@ -1,0 +1,31 @@
+name: Rule proposal
+description: Propose a new rule or a change to one of the 12
+labels: [rule]
+body:
+  - type: textarea
+    id: before
+    attributes:
+      label: Before
+      description: A real response you got from an agent. Paste it exactly.
+    validations:
+      required: true
+  - type: textarea
+    id: after
+    attributes:
+      label: After
+      description: What it should have said instead.
+    validations:
+      required: true
+  - type: input
+    id: who
+    attributes:
+      label: Who does this help, in one sentence?
+    validations:
+      required: true
+  - type: dropdown
+    id: which
+    attributes:
+      label: Which rule does this change?
+      options: ["1 One idea per sentence", "2 Under 15 words", "3 Everyday words", "4 Define hard words", "5 One example per idea", "6 Digits not words", "7 Numbered steps", "8 Most important first", "9 Bold the key word", "10 No idioms or metaphors", "11 Plain is not childish", "12 One check question", "New rule (say which one it replaces)"]
+    validations:
+      required: true

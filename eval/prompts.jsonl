@@ -1,0 +1,48 @@
+{"id": "mone-01", "category": "money", "prompt": "What is interest on a credit card?"}
+{"id": "mone-02", "category": "money", "prompt": "My bank charged me an overdraft fee. What is that and can I get it back?"}
+{"id": "mone-03", "category": "money", "prompt": "What is the difference between a debit card and a credit card?"}
+{"id": "mone-04", "category": "money", "prompt": "Someone said I should make a budget. How do I do that?"}
+{"id": "mone-05", "category": "money", "prompt": "What does it mean when a store says 0% financing for 12 months?"}
+{"id": "mone-06", "category": "money", "prompt": "I got a letter that says my account is in collections. What should I do?"}
+{"id": "heal-01", "category": "health-appointments", "prompt": "What is a co-pay and why do I have to pay it at the doctor?"}
+{"id": "heal-02", "category": "health-appointments", "prompt": "My doctor said I need a referral to see a specialist. What is that?"}
+{"id": "heal-03", "category": "health-appointments", "prompt": "What should I bring to my first appointment with a new doctor?"}
+{"id": "heal-04", "category": "health-appointments", "prompt": "The pharmacy said my prescription needs prior authorization. What does that mean?"}
+{"id": "heal-05", "category": "health-appointments", "prompt": "What is a deductible on my health insurance?"}
+{"id": "heal-06", "category": "health-appointments", "prompt": "How do I ask my doctor to explain something again without being rude?"}
+{"id": "lega-01", "category": "legal-forms", "prompt": "What is a power of attorney and do I need one?"}
+{"id": "lega-02", "category": "legal-forms", "prompt": "What does it mean to be a guardian of someone?"}
+{"id": "lega-03", "category": "legal-forms", "prompt": "I got a jury duty letter. What do I have to do?"}
+{"id": "lega-04", "category": "legal-forms", "prompt": "What is a notary and why does this form need one?"}
+{"id": "lega-05", "category": "legal-forms", "prompt": "What is the difference between a will and a trust?"}
+{"id": "lega-06", "category": "legal-forms", "prompt": "This form asks for my 'legal name.' What does that mean?"}
+{"id": "hous-01", "category": "housing", "prompt": "My landlord says I have to pay a late fee. Is that allowed?"}
+{"id": "hous-02", "category": "housing", "prompt": "What is a security deposit and when do I get it back?"}
+{"id": "hous-03", "category": "housing", "prompt": "What is a lease and what happens when it ends?"}
+{"id": "hous-04", "category": "housing", "prompt": "My apartment has mold. Who has to fix it?"}
+{"id": "hous-05", "category": "housing", "prompt": "What is Section 8 housing and how do I apply?"}
+{"id": "hous-06", "category": "housing", "prompt": "My roommate wants to move out but we both signed the lease. What happens?"}
+{"id": "work-01", "category": "work", "prompt": "What is a W-2 and what do I do with it?"}
+{"id": "work-02", "category": "work", "prompt": "What is the difference between being paid hourly and being paid a salary?"}
+{"id": "work-03", "category": "work", "prompt": "My boss said I am on probation for 90 days. What does that mean?"}
+{"id": "work-04", "category": "work", "prompt": "What is a reasonable accommodation at work and how do I ask for one?"}
+{"id": "work-05", "category": "work", "prompt": "What is PTO and how do I use it?"}
+{"id": "work-06", "category": "work", "prompt": "I think I was paid less than I was supposed to be. What should I do?"}
+{"id": "tran-01", "category": "transport", "prompt": "How do I use a paratransit service?"}
+{"id": "tran-02", "category": "transport", "prompt": "What does it mean if my bus is 'detoured'?"}
+{"id": "tran-03", "category": "transport", "prompt": "My driver's license expired. What do I need to do?"}
+{"id": "tran-04", "category": "transport", "prompt": "How does a rideshare app like Uber or Lyft work?"}
+{"id": "tran-05", "category": "transport", "prompt": "What is a reduced fare card and how do I get one?"}
+{"id": "tran-06", "category": "transport", "prompt": "What should I do if I miss my stop on the train?"}
+{"id": "tech-01", "category": "technology", "prompt": "What is two-factor authentication and why does my bank want it?"}
+{"id": "tech-02", "category": "technology", "prompt": "My phone says storage is full. What does that mean and what do I do?"}
+{"id": "tech-03", "category": "technology", "prompt": "What is the cloud? People keep saying my photos are in the cloud."}
+{"id": "tech-04", "category": "technology", "prompt": "What is a password manager and should I use one?"}
+{"id": "tech-05", "category": "technology", "prompt": "An app wants permission to use my location. Should I say yes?"}
+{"id": "tech-06", "category": "technology", "prompt": "What is the difference between Wi-Fi and mobile data?"}
+{"id": "rela-01", "category": "relationships", "prompt": "My friend only texts me when she needs money. Is that a real friend?"}
+{"id": "rela-02", "category": "relationships", "prompt": "What is consent and how do I know if someone gave it?"}
+{"id": "rela-03", "category": "relationships", "prompt": "How do I tell my support worker I do not like how she talks to me?"}
+{"id": "rela-04", "category": "relationships", "prompt": "What does it mean to set a boundary with someone?"}
+{"id": "rela-05", "category": "relationships", "prompt": "My brother makes decisions for me and I want to make my own. What can I say to him?"}
+{"id": "rela-06", "category": "relationships", "prompt": "How do I know if someone online is really who they say they are?"}

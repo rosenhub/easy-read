@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Benchmark results
+    url: https://github.com/rosenhub/easy-read/tree/main/eval/results
+    about: Post EasyReadBench results as a PR, not an issue.
