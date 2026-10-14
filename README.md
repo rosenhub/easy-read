@@ -14,7 +14,6 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![EasyReadBench](https://img.shields.io/badge/EasyReadBench-run%20it-orange?style=flat-square)](eval/)
 
-**让你的 AI 用易读体写作。为智力和发展障碍成人设计，对所有人更好。**
 
 [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#easyreadbench) · [Why not X](#why-not-no-subtext--eli5--readability-tools) · [FAQ](#faq)
 
