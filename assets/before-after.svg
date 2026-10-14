@@ -1,73 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-  <defs>
-    <style>
-      .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
-      .label { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #8b949e; }
-      .q { font-size: 17px; fill: #c9d1d9; }
-      .a { font-size: 16px; fill: #e6edf3; }
-      .dim { fill: #6e7681; }
-      .strike { fill: #8b949e; text-decoration: line-through; }
-      .good { fill: #3fb950; }
-      .bad { fill: #f85149; }
-      .meta { font-size: 13px; fill: #8b949e; }
-      .bubble-user { fill: #1f6feb; }
-      .bubble-ai { fill: #161b22; stroke: #30363d; }
-      .title { font-size: 30px; font-weight: 800; fill: #e6edf3; }
-      .sub { font-size: 16px; fill: #8b949e; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="620" fill="#010409"/>
+  <text x="600" y="46" text-anchor="middle" font-size="28" font-weight="800" fill="#e6edf3">"My bank sent a letter. It says my account is overdrawn. Am I in trouble?"</text>
+  <text x="600" y="76" text-anchor="middle" font-size="17" font-style="italic" fill="#c9d1d9">An adult with an intellectual disability, holding the letter. Scared they did something wrong.</text>
+  <text x="600" y="99" text-anchor="middle" font-size="13" fill="#6e7681">Same model. Same question. The only difference is one skill file.</text>
 
-  <rect width="1200" height="560" fill="#010409"/>
-
-  <text x="600" y="48" text-anchor="middle" class="title">"What is a power of attorney and do I need one?"</text>
-  <text x="600" y="74" text-anchor="middle" class="sub">Same model. Same question. Only difference: one line in the system prompt.</text>
-
-  <!-- BEFORE -->
-  <rect x="40" y="100" width="545" height="420" rx="12" class="panel"/>
-  <text x="64" y="130" class="label">BEFORE</text>
-  <text x="560" y="130" text-anchor="end" class="meta bad">95 words · longest sentence 33 words</text>
-
-  <rect x="64" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
-  <g class="a" font-size="15">
-    <text x="84" y="176">A power of attorney (POA) is a legal instrument that</text>
-    <text x="84" y="198">authorizes a designated individual, known as your agent</text>
-    <text x="84" y="220">or attorney-in-fact, to act on your behalf in financial,</text>
-    <text x="84" y="242">legal, or healthcare matters. Whether you need one</text>
-    <text x="84" y="264">depends on your individual circumstances; however, most</text>
-    <text x="84" y="286">estate planning professionals recommend that adults</text>
-    <text x="84" y="308">execute a durable POA in order to ensure continuity of</text>
-    <text x="84" y="330">decision-making in the event of incapacity. Furthermore,</text>
-    <text x="84" y="352">there are general, limited, and springing variants, each</text>
-    <text x="84" y="374">conferring a different scope of authority. It would be</text>
-    <text x="84" y="396">advisable to consult an attorney to determine which</text>
-    <text x="84" y="418">option best facilitates your objectives.</text>
+  <rect x="40" y="118" width="545" height="460" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="64" y="148" font-size="13" font-weight="700" letter-spacing="1.5" fill="#8b949e">BEFORE</text>
+  <text x="560" y="148" text-anchor="end" font-size="13" fill="#f85149">66 words · longest sentence 24 words</text>
+  <rect x="64" y="166" width="497" height="376" rx="10" fill="#161b22" stroke="#30363d"/>
+  <g fill="#e6edf3">
+    <text x="84" y="196" font-size="15">An overdraft occurs when a transaction exceeds the</text>
+    <text x="84" y="218" font-size="15">available balance in your checking account, resulting in</text>
+    <text x="84" y="240" font-size="15">a negative balance. Depending on your bank's policies</text>
+    <text x="84" y="262" font-size="15">and whether you've opted into overdraft protection, you</text>
+    <text x="84" y="284" font-size="15">may incur fees, typically ranging from $25 to $35 per</text>
+    <text x="84" y="306" font-size="15">transaction. It's important to address this promptly by</text>
+    <text x="84" y="328" font-size="15">depositing sufficient funds, as continued overdrafts</text>
+    <text x="84" y="350" font-size="15">could potentially lead to account closure or reporting</text>
+    <text x="84" y="372" font-size="15">to ChexSystems.</text>
   </g>
-  <g class="meta bad" font-size="12">
-    <text x="84" y="460">✗ 33-word sentence  ✗ undefined terms  ✗ no example  ✗ no steps  ✗ "however"</text>
-  </g>
+  <text x="84" y="524" font-size="12" fill="#f85149">✗ never says "no"  ✗ "incur", "ChexSystems"  ✗ no example  ✗ no steps</text>
 
-  <!-- AFTER -->
-  <rect x="615" y="100" width="545" height="420" rx="12" class="panel"/>
-  <text x="639" y="130" class="label">AFTER · easy-read</text>
-  <text x="1135" y="130" text-anchor="end" class="meta good">103 words · longest sentence 13 words</text>
-
-  <rect x="639" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
-  <g class="a" font-size="14">
-    <text x="659" y="176"><tspan font-weight="700">Yes.</tspan> Most adults should have one.</text>
-    <text x="659" y="202">A <tspan font-weight="700">power of attorney</tspan> is a legal paper. It lets you</text>
-    <text x="659" y="221">pick a person to decide things for you.</text>
-    <text x="659" y="240">That person is your <tspan font-weight="700">agent</tspan>.</text>
-    <text x="659" y="266">Your agent acts for you when you <tspan font-weight="700">cannot</tspan>. For example,</text>
-    <text x="659" y="285">if you are in the hospital, they could pay your rent.</text>
-    <text x="659" y="311">To get one:</text>
-    <text x="659" y="330">1. Pick a person you trust with your money.</text>
-    <text x="659" y="349">2. Ask a legal aid office for the form.</text>
-    <text x="677" y="368">Legal aid is free legal help.</text>
-    <text x="659" y="387">3. Sign it in front of a <tspan font-weight="700">notary</tspan>. A notary checks</text>
-    <text x="677" y="406">it is really you.</text>
-    <text x="659" y="432" class="dim">Do you want me to say that a different way?</text>
+  <rect x="615" y="118" width="545" height="460" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="639" y="148" font-size="13" font-weight="700" letter-spacing="1.5" fill="#8b949e">AFTER · easy-read</text>
+  <text x="1135" y="148" text-anchor="end" font-size="13" fill="#3fb950">65 words · longest sentence 11 words</text>
+  <rect x="639" y="166" width="497" height="376" rx="10" fill="#161b22" stroke="#30363d"/>
+  <g fill="#e6edf3">
+    <text x="659" y="202" font-size="22" font-weight="700">No. You are not in trouble.</text>
+    <text x="659" y="244" font-size="15"><tspan font-weight="700">Overdrawn</tspan> means you spent more money</text>
+    <text x="659" y="266" font-size="15">than was in your account.</text>
+    <text x="659" y="288" font-size="15">Example: you had $20. You spent $30.</text>
+    <text x="659" y="310" font-size="15">Now your account is at -$10.</text>
+    <text x="659" y="344" font-size="15">What to do:</text>
+    <text x="659" y="366" font-size="15">1. Put money into the account.</text>
+    <text x="659" y="388" font-size="15">2. Call the phone number on the letter.</text>
+    <text x="659" y="410" font-size="15">3. Ask: "Can you take away the fee?"</text>
+    <text x="659" y="444" font-size="15" fill="#8b949e">Do you want me to say that a different way?</text>
+    
   </g>
-  <g class="meta good" font-size="12">
-    <text x="659" y="460">✓ answer first  ✓ 13-word max  ✓ terms defined  ✓ example  ✓ check question</text>
-  </g>
+  <text x="659" y="524" font-size="12" fill="#3fb950">✓ answer first  ✓ word defined  ✓ example  ✓ 3 steps  ✓ check</text>
 </svg>

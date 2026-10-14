@@ -22,7 +22,7 @@
 npx skills add rosenhub/easy-read
 ```
 
-<img src="assets/before-after.png" alt="Before: 95 words, longest sentence 33 words, undefined terms, no example, no steps. After: 103 words, longest sentence 13 words, answer first, terms defined, example, check question." width="100%">
+<img src="assets/before-after.png" alt="Before: 66 words · longest sentence 24 words. After: 65 words · longest sentence 11 words. An adult with an intellectual disability, holding the letter. Scared they did something wrong." width="100%">
 
 Part of [AI Their Way](https://github.com/rosenhub/ai-their-way) — siblings: [no-subtext](https://github.com/rosenhub/no-subtext) · [what-did-they-mean](https://github.com/rosenhub/what-did-they-mean) · [never-say-remember](https://github.com/rosenhub/never-say-remember) · [presume-competence](https://github.com/rosenhub/presume-competence) · [low-demand](https://github.com/rosenhub/low-demand) · [is-this-a-scam](https://github.com/rosenhub/is-this-a-scam) · [one-thing](https://github.com/rosenhub/one-thing)
 
@@ -90,25 +90,24 @@ If your host isn't here and it reads markdown instructions from a file, it works
 
 Same model. Same prompt. The only change is the skill.
 
-### "What is a power of attorney and do I need one?"
+### "My bank sent a letter that says my account is overdrawn. Am I in trouble?"
+
+*An adult with an intellectual disability, holding the letter. Scared they did something wrong.*
 
 **Before**
 
-> A power of attorney (POA) is a legal instrument that authorizes a designated individual, known as your agent or attorney-in-fact, to act on your behalf in financial, legal, or healthcare matters. Whether you need one depends on your individual circumstances; however, most estate planning professionals recommend that adults execute a durable POA in order to ensure continuity of decision-making in the event of incapacity. Furthermore, there are general, limited, and springing variants, each conferring a different scope of authority. It would be advisable to consult an attorney to determine which option best facilitates your objectives.
+> An overdraft occurs when a transaction exceeds the available balance in your checking account, resulting in a negative balance. Depending on your bank's policies and whether you've opted into overdraft protection, you may incur fees, typically ranging from $25 to $35 per transaction. It's important to address this promptly by depositing sufficient funds, as continued overdrafts could potentially lead to account closure or reporting to ChexSystems.
 
 **After**
 
-> **Yes.** Most adults should have one.
+> No. You are not in trouble.
 >
-> A **power of attorney** is a legal paper. It lets you pick a person to decide things for you. That person is your **agent**.
+> **Overdrawn** means you spent more money than was in your account. Example: you had $20. You spent $30. Now your account is at -$10.
 >
-> Your agent acts for you when you **cannot**. For example, if you are in the hospital, they could pay your rent.
->
-> To get one:
->
-> 1. Pick a person you trust with your money.
-> 2. Ask a legal aid office for the form. Legal aid is free legal help.
-> 3. Sign it in front of a **notary**. A notary checks it is really you.
+> What to do:
+> 1. Put money into the account.
+> 2. Call the phone number on the letter.
+> 3. Ask: "Can you take away the fee?"
 >
 > Do you want me to say that a different way?
 

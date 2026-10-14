@@ -1,13 +1,10 @@
-**Yes.** Most adults should have one.
+No. You are not in trouble.
 
-A **power of attorney** is a legal paper. It lets you pick a person to decide things for you. That person is your **agent**.
+**Overdrawn** means you spent more money than was in your account. Example: you had $20. You spent $30. Now your account is at -$10.
 
-Your agent acts for you when you **cannot**. For example, if you are in the hospital, they could pay your rent.
-
-To get one:
-
-1. Pick a person you trust with your money.
-2. Ask a legal aid office for the form. Legal aid is free legal help.
-3. Sign it in front of a **notary**. A notary checks it is really you.
+What to do:
+1. Put money into the account.
+2. Call the phone number on the letter.
+3. Ask: "Can you take away the fee?"
 
 Do you want me to say that a different way?
